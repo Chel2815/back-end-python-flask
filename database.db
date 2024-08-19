@@ -1,0 +1,11 @@
+-- Selecionar todos os dados da tabela
+SELECT * FROM example;
+
+-- Inserir dados na tabela
+INSERT INTO example (name) VALUES ('john Doe');
+
+-- Atualizar dados na tabela
+UPDATE example SET name = 'Jane Doe' WHERE id = 1;
+
+-- Deletar dados da tabela 
+DELETE FROM example WHERE id = 1;
